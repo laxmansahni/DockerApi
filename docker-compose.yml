@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  dockerapi:
+    image: dockerapi
+    build: .
+    ports:
+      - 5002:5002
